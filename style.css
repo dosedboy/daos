@@ -1,0 +1,39 @@
+/* GLOBALES */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    margin: 0em;
+}
+
+.cover{
+    height: 400px;
+    background-image: url(IMG/3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5 );
+    background-blend-mode: darken;
+    
+}
+
+.container-fluid{
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+}
+
+.card-body{
+    font-size: 25px;
+    text-align: center;
+}
+
+.imagen {
+    height: 400px;
+   
+}
+
+.plant {
+    height: 100%;
+}
